@@ -4,7 +4,6 @@ export const navLinks = [
     label: "About",
     children: [
       { label: "About Us", to: "/about" },
-      { label: "Governing Body", to: "/committee" },
       { label: "Future Plans", to: "/future-plan" },
     ],
   },

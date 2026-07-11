@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import { Routes, Route, Outlet } from "react-router-dom";
+import { Routes, Route, Outlet, Navigate } from "react-router-dom";
 import { SettingsProvider } from "./lib/SettingsContext.jsx";
 import { Layout } from "./components/layout/Layout.jsx";
 
@@ -14,7 +14,6 @@ import {
   FuturePlanPage,
   PressPage,
 } from "./pages/SimplePages.jsx";
-import CommitteePage from "./pages/CommitteePage.jsx";
 import DurgaPujaPage from "./pages/DurgaPujaPage.jsx";
 import GalleryPage from "./pages/GalleryPage.jsx";
 import AlbumPage from "./pages/AlbumPage.jsx";
@@ -41,7 +40,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/committee" element={<CommitteePage />} />
+        <Route path="/committee" element={<Navigate to="/members" replace />} />
         <Route path="/durga-puja" element={<DurgaPujaPage />} />
         <Route path="/sports" element={<SportsPage />} />
         <Route path="/social" element={<SocialPage />} />
