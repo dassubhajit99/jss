@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { createPortal } from "react-dom";
 import { NavLink } from "react-router-dom";
 import { navLinks } from "./navConfig.js";
 
@@ -16,7 +17,7 @@ export function MobileDrawer({ open, onClose }) {
     };
   }, [open, onClose]);
 
-  return (
+  return createPortal(
     <div
       className={`fixed inset-0 z-50 lg:hidden ${open ? "" : "pointer-events-none"}`}
       aria-hidden={!open}
@@ -59,7 +60,8 @@ export function MobileDrawer({ open, onClose }) {
           )}
         </nav>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
 

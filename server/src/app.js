@@ -16,12 +16,18 @@ app.set("trust proxy", 1); // correct req.ip behind Vercel/proxies
 
 app.use(helmet());
 app.use(compression());
+
+const VERCEL_ORIGIN_RE = /^https:\/\/[a-z0-9-]+\.vercel\.app$/i;
+const isAllowedOrigin = (origin) =>
+  env.CLIENT_ORIGINS.includes(origin) || VERCEL_ORIGIN_RE.test(origin);
+
 app.use(
   cors({
     origin(origin, cb) {
-      // allow same-origin/non-browser (no origin) and configured origins
-      if (!origin || env.CLIENT_ORIGINS.includes(origin)) return cb(null, true);
-      return cb(new Error("Not allowed by CORS"));
+      // allow same-origin/non-browser (no origin), configured origins, and any Vercel deployment
+      if (!origin || isAllowedOrigin(origin)) return cb(null, true);
+      console.warn("[cors] blocked origin:", origin);
+      return cb(null, false);
     },
   })
 );
