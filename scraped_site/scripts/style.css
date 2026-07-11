@@ -1,0 +1,459 @@
+.text {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	text-align: justify;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 18px;
+}
+
+
+.text a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #990000;
+	text-align: justify;
+	text-decoration: none;
+	font-weight: bold;
+}
+.highlight-text {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #0053A6;
+	font-weight: bold;
+}
+
+.text a:hover {
+	color: #3A7401;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: dashed;
+	border-left-style: solid;
+	border-top-color: #8BB702;
+	border-right-color: #8BB702;
+	border-bottom-color: #8BB702;
+	border-left-color: #8BB702;
+	background-color: #E6FFE6;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+.tea-qoute {
+	font-family: "Trebuchet MS", Verdana, "Arial Unicode MS";
+	font-size: 12px;
+	text-align: center;
+}
+
+.topmenu {
+	font-family: "Trebuchet MS", "Arial Unicode MS";
+	font-size: 9pt;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+	background-image: url(../images/slice_02.jpg);
+	background-repeat: no-repeat;
+}
+.tblfnt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+
+body {
+	margin: 0px;
+	background-color: #ffffff;
+}
+.topmenu a {
+	font-family: "Trebuchet MS", "Arial Unicode MS";
+	font-size: 9pt;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #FFFFFF;
+}
+.topmenu a:hover {
+	color: #731400;
+	text-decoration: none;
+	display: block;
+	background-color: #FFFFFF;
+}
+.leftmenu {
+	font-family: "Trebuchet MS", "Arial Unicode MS";
+	font-size: 9pt;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin: 0px;
+	background-color: #3F97BF;
+}
+.footbg {
+	background-repeat: no-repeat;
+}
+.foot {
+	font-family: "Trebuchet MS", "Arial Unicode MS";
+	font-size: 9pt;
+	color: #9D2700;
+	text-decoration: none;
+	padding-top: 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #990000;
+}
+.foot a {
+
+	font-family: "Trebuchet MS", "Arial Unicode MS";
+	font-size: 9pt;
+	color: #666666;
+	text-decoration: none;
+}
+.foot a:hover {
+
+
+	font-family: "Trebuchet MS", "Arial Unicode MS";
+	font-size: 9pt;
+	color: #009900;
+	text-decoration: none;
+}
+.leftmenu a {
+	font-family: "Microsoft Sans Serif", Arial, Verdana;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 0px;
+}
+.leftmenu a:hover {
+
+
+	font-family: "Microsoft Sans Serif", Arial, Verdana;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FF9900;
+	text-decoration: none;
+}
+.panneltext {
+	font-family: "Trebuchet MS", "Arial Unicode MS";
+	font-size: 9pt;
+	color: #000000;
+	padding-top: 2px;
+	padding-right: 4px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	background-image: url(../images/bg_09.jpg);
+	background-repeat: repeat-y;
+}
+.splpnl{
+	font-family: "Trebuchet MS", "Arial Unicode MS";
+	FONT-SIZE: 10pt;
+	TEXT-DECORATION: none;
+	color: #000000;
+	text-justify: inter-ideograph;
+	border-collapse: collapse;
+	border-collapse: collapse;
+	background-image: url(../images/slice_06.jpg);
+	background-repeat: no-repeat;
+	padding-top: 2px;
+	padding-right: 15px;
+	padding-bottom: 3px;
+}
+input, textarea, select{
+	BORDER-RIGHT: #b7b398 1px solid;
+	BORDER-TOP: #b7b398 1px solid;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10pt;
+	BORDER-LEFT: #b7b398 1px solid;
+	COLOR: maroon;
+	BORDER-BOTTOM: #b7b398 1px solid;
+	FONT-FAMILY: Arial, Trebuchet MS,Verdana,Tahoma, Geneva,Helvetica;
+	}
+	
+	.radio{
+	border : 0px solid;
+}
+.panel{
+	font-family: Tahoma,Verdana,Arial,"MS Sans Serif", Geneva, sans-serif;
+	FONT-SIZE: 10pt;
+	TEXT-DECORATION: none;
+	Font: 11px Tahoma,Verdana,Arial,"MS Sans Serif", Geneva, sans-serif;
+	color : #344751;
+	text-align : justify;
+	text-justify: inter-ideograph;
+	border-collapse: collapse;
+	width: 99%;
+	border: 1px solid #b7b398;
+	border-color: #b7b398;
+	border-collapse: collapse;
+}
+.panel table{
+	font-family: Tahoma,Verdana,Arial,"MS Sans Serif", Geneva, sans-serif;
+	FONT-SIZE: 10pt;
+	TEXT-DECORATION: none;
+	Font: 11px Tahoma,Verdana,Arial,"MS Sans Serif", Geneva, sans-serif;
+	color : #344751;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	caption-side: top;
+	empty-cells: hide;
+	float: middle;
+}
+
+.panel td{
+	padding: 2px 2px 2px 2px;
+	vertical-align: top;
+}
+
+.head{
+	font-family: Tahoma, "Arial Black", Tahoma, Verdana, Arial, "MS Sans Serif", Geneva, sans-serif;
+	FONT-SIZE: 9pt;
+	TEXT-DECORATION: none;
+	Font: normal normal 9pt Tahoma, "Arial Black", Verdana, Arial, "MS Sans Serif", Geneva, sans-serif;
+	color: #ffffff;
+	border: 1px solid #b7b398;
+	border-collapse: collapse;
+	border-color: #b7b398;
+	padding: 3px 3px 3px 3px;
+	vertical-align: top;
+	background-color: #759D4D;
+	font-stretch: normal;
+	font-weight: bold;
+	border-spacing: 0px;
+	text-shadow: black 0px 0px 3px;
+	unicode-bidi: normal;
+	background: #759D4D;
+	text-transform: uppercase;
+}
+.head img{
+	border: 0px;
+	vertical-align: middle;
+}
+.cont{
+	font-family: Tahoma, Verdana, Arial, "MS Sans Serif", Geneva, sans-serif;
+	FONT-SIZE: 9pt;
+	TEXT-DECORATION: none;
+	Font: normal normal 9pt Tahoma, Verdana, Arial, "MS Sans Serif", Geneva, sans-serif;
+	color: #000000;
+	border: 1px solid #b7b398;
+	border-collapse: collapse;
+	border-color: #b7b398;
+	padding: 5px 5px 5px 8px;
+	vertical-align: top;
+	background-color: #d3e7bd;
+	border-spacing: 0px;
+}
+	hr
+{
+	color : #b7b398;
+	height : 1px;
+}
+.textcon {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin-right: 3px;
+	margin-left: 3px;
+	text-align: right;
+	font-weight: bold;
+}
+.textcon a {
+	color: #000000;
+	margin-right: 0px;
+	margin-left: 3px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.textcon a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+.tblbrdr {
+	border: 1px dashed #CEDCC2;
+}
+.panneltext a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3A7401;
+	text-decoration: none;
+}
+.panneltext a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #990000;
+	text-decoration: none;
+}
+#content fieldset {
+	padding: 12px;
+}
+
+#content {
+	padding-top: 10px;
+	padding-right: 12px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+#content legend {
+	background-color: #f5f5f5;
+	border: 1px solid efeded;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16pt;
+	color: #be420d;
+	font-weight: bold;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-style: italic;
+}
+.tbl1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	text-align: justify;
+	padding-right: 10px;
+	padding-left: 4px;
+	border-right-width: 4pt;
+	border-right-style: solid;
+	border-right-color: #FF0000;
+}
+.tbl1 a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #990000;
+	text-align: justify;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+}
+.tbl1 a:hover {
+	color: #3A7401;
+	text-align: justify;
+	text-decoration: none;
+	background-color: #66FF99;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: dashed;
+	border-left-style: solid;
+	border-top-color: #8BB702;
+	border-right-color: #8BB702;
+	border-bottom-color: #8BB702;
+	border-left-color: #8BB702;
+}
+.highlight-text2 {
+
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #3A7401;
+	font-weight: bold;
+}
+hr {
+	color: #FF0000;
+	text-align: center;
+}
+.hr-red {
+
+	color: #FF0000;
+	text-align: center;
+}
+.tbl-quote {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	text-align: justify;
+	padding-right: 10px;
+	padding-left: 4px;
+	border-right-width: 4pt;
+	border-right-style: solid;
+	border-right-color: #FF0000;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FF0000;
+	border-bottom-color: #FF0000;
+	border-left-color: #FF0000;
+}
+.splpnl a {
+
+	font-family: "Trebuchet MS", "Arial Unicode MS";
+	FONT-SIZE: 10pt;
+	TEXT-DECORATION: none;
+	color: #000000;
+	text-justify: inter-ideograph;
+	border-collapse: collapse;
+	border-collapse: collapse;
+}
+.splpnl a:hover {
+
+
+	font-family: "Trebuchet MS", "Arial Unicode MS";
+	FONT-SIZE: 10pt;
+	TEXT-DECORATION: underline;
+	color: #FF0000;
+	text-justify: inter-ideograph;
+	border-collapse: collapse;
+	border-collapse: collapse;
+}
+.prz-tbl {
+	padding-top: 25px;
+	margin: 0px;
+}
+.prz-tbl img {
+	margin: 3px;
+	padding: 3px;
+	border: 1px solid #FFF;
+}
+#puja {
+	border: 2px solid #E58318;
+}
+#pic-pg {
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+.dpuja {
+	border: 3px solid #E58318;
+}
+.puja-hding {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #900;
+}
+#donate {
+	text-align: right;
+}
+.list {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 32px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.list li {
+	padding: 0px;
+	list-style-type: decimal;
+	line-height: 16px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+}

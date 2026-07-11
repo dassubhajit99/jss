@@ -1,0 +1,41 @@
+{
+  "key": "global",
+  "clubName": "Jatiya Shakti Sangha O Pathagar",
+  "tagline": "Culture, sport and service in Champasari, Siliguri — since 1983.",
+  "foundedYear": 1983,
+  "address": "Champasari Main Road, Champasari, Siliguri, Darjeeling, West Bengal",
+  "email": "info@SiliguriJSS.org",
+  "website": "www.SiliguriJSS.org",
+  "socials": { "facebook": "", "instagram": "", "youtube": "" },
+  "hero": {
+    "slides": [
+      {
+        "image": "/assets/home-pic1.jpg",
+        "headline": "Jatiya Shakti Sangha O Pathagar",
+        "subtext": "A community and cultural club serving Champasari, Siliguri since 1983.",
+        "ctaLabel": "Our Story",
+        "ctaHref": "/about"
+      },
+      {
+        "image": "/assets/puja09.jpg",
+        "headline": "Durga Puja like nowhere else",
+        "subtext": "Themed pandals witnessed by lakhs across North Bengal.",
+        "ctaLabel": "Explore Durga Puja",
+        "ctaHref": "/durga-puja"
+      },
+      {
+        "image": "/assets/plantation.jpg",
+        "headline": "Service to our community",
+        "subtext": "Plantation drives, health camps, blood donation and support for the needy.",
+        "ctaLabel": "Social Work",
+        "ctaHref": "/social"
+      }
+    ]
+  },
+  "stats": [
+    { "label": "Serving since", "value": "1983" },
+    { "label": "Durga Puja visitors", "value": "8–9 lakh" },
+    { "label": "Silver Jubilee", "value": "2007" },
+    { "label": "Books planned for library", "value": "5,000+" }
+  ]
+}

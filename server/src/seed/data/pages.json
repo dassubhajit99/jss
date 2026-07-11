@@ -1,0 +1,116 @@
+[
+  {
+    "slug": "about",
+    "title": "About Us",
+    "subtitle": "Serving Champasari, Siliguri since 1983",
+    "order": 1,
+    "heroImage": "/assets/home-pic1.jpg",
+    "seo": {
+      "title": "About Jatiya Shakti Sangha",
+      "description": "The story of Jatiya Shakti Sangha O Pathagar — a community and cultural club founded in 1983 in Champasari, Siliguri."
+    },
+    "body": "One fine evening in the year 1983, a group of young people from this locality — led by Sri Swapan Chakraborty, Sri Dibyendu Sanyal and others — shared an idea while a bridegroom's party had come to marry one of our elder sisters. They proposed some financial help for forming a club in the locality. The bridegroom's party responded with great interest and donated **Rs. 500** for the purpose.\n\nThat same year, one of our well-known youths was suddenly lost to electrocution. In his memory, and with the donation given by the bridegroom's party, our club came into existence as **Jatiya Shakti Sangha O Pathagar**. A small plot of about 4 kathas along the Champasari Main Road was arranged with the positive support of Roy Jethamashai, the National Award-winning teacher Late Shailendra Kumar Sen, and Sri Arabinda Biswas, the then President of the Siliguri–Naxalbari Panchayat Samity.\n\nWith the help of its members, a small club house was built, and over the years it has grown into a double-storied building. The club is not confined to social service alone — it strives to be an outstanding force for preserving the cultural heritage and tranquility of the area, and a leading organisation for a green environment through culture, sports and education.\n\nWith the constant and sustained efforts of its members — and the keen support of every section of society — the club opened a **Table Tennis Training Centre**, inaugurated by Sri Ashok Bhattacharjee, Hon'ble Minister for Urban Development & Municipal Affairs, Government of West Bengal, along with the noted Bengal cricketer Md. Saba Karim."
+  },
+  {
+    "slug": "profile",
+    "title": "Club Profile",
+    "subtitle": "At a glance",
+    "order": 2,
+    "seo": {
+      "title": "Club Profile",
+      "description": "Profile of Jatiya Shakti Sangha O Pathagar, Champasari, Siliguri."
+    },
+    "body": "**Jatiya Shakti Sangha O Pathagar** is a community, cultural and social welfare club based in Champasari, Siliguri, in the Darjeeling district of West Bengal.\n\n- **Established:** 1983\n- **Silver Jubilee:** 2007\n- **Location:** Champasari Main Road, Siliguri, Darjeeling\n- **Focus areas:** Durga Puja & cultural festivals, sports, social service, a public library (pathagar), health camps and community welfare.\n\n_This section is being expanded. Please keep visiting for more details._"
+  },
+  {
+    "slug": "sports",
+    "title": "Sports",
+    "subtitle": "Encouraging the young talent of our area",
+    "order": 5,
+    "heroImage": "/gallery/cricket1-big.jpg",
+    "seo": {
+      "title": "Sports",
+      "description": "Cricket, table tennis and dance programmes run by Jatiya Shakti Sangha."
+    },
+    "body": "Alongside our social activities, we pay special attention to sports to encourage the children of this area.\n\n- A running **cricket tournament** is held every year, with most of the prominent clubs of Siliguri, Malda, Coochbehar and Alipurduar taking part.\n- A **table tennis tournament** is hosted under the banner of the Siliguri District Table Tennis Association and the Siliguri Municipal Corporation.\n- **Table tennis coaching** is imparted to about 100 children of the area under the guidance of an eminent player of the district.\n- **Bharatanatyam** is taught on a weekly basis by a renowned Bharatanatyam dancer of Siliguri."
+  },
+  {
+    "slug": "social",
+    "title": "Social Activities",
+    "subtitle": "Working for a greener, healthier community",
+    "order": 6,
+    "heroImage": "/assets/plantation.jpg",
+    "seo": {
+      "title": "Social Activities",
+      "description": "Plantation drives, awareness campaigns and community service by Jatiya Shakti Sangha."
+    },
+    "body": "### Making our surroundings green\n\nWith the rising effects of global warming, the time has come to reduce its impact to the greatest extent possible. Every year we organise regular campaigns for large-scale plantation, planting different varieties of trees across the area, and holding seminars among locals to spread awareness of the harm of felling trees and the benefits of planting them.\n\nMembers of the club plant trees across all the school premises of the area, and the school authorities are entrusted to look after their growth and maintenance through mutual understanding.\n\nWherever unauthorised felling of trees is noticed, club members help prevent it with the support of the Forest Department. A new plan for planting **medicinal trees** is being considered, and Ayurvedic medicine manufacturers — especially in Uttarakhand — are being contacted for this purpose. The club premises themselves are planted with many varieties of valuable fruit trees.\n\nThe club also takes a positive role by participating in every social campaign organised by the Siliguri Municipal Corporation, the Forest Department and other agencies."
+  },
+  {
+    "slug": "health",
+    "title": "Health Check-ups",
+    "subtitle": "Free camps for those who need them most",
+    "order": 7,
+    "heroImage": "/gallery/health1-big.jpg",
+    "seo": {
+      "title": "Health Check-ups",
+      "description": "Free eye-testing, blood-donation camps and patient support by Jatiya Shakti Sangha."
+    },
+    "body": "- An important step has been taken by organising frequent free health check-ups — including **free eye testing** with the help of prominent doctors of Siliguri — for the poor people of the area and senior citizens who cannot afford costly treatment.\n- **Blood-donation camps** are organised on every Red Letter Day, where most members of the club donate blood for the needy.\n- **Poor patients are supported financially** for treatment outside the region, including arrangement of rail/air tickets by the club and comprehensive information about hospitals and treatment centres."
+  },
+  {
+    "slug": "library",
+    "title": "Library (Pathagar)",
+    "subtitle": "Books and learning for every student",
+    "order": 8,
+    "seo": {
+      "title": "Library",
+      "description": "The library (pathagar) of Jatiya Shakti Sangha, planned to serve poor and meritorious students."
+    },
+    "body": "A free library for poor students is central to our mission. Our activities cover a large, densely populated area that includes many poor yet meritorious students who cannot fully pursue their education for want of facilities.\n\nA library is being developed with a target of at least **5,000 books** of various standards, including reference books, to benefit the maximum number of poor students of this area — free of cost.\n\n_This section is being expanded. Please keep visiting for more details._"
+  },
+  {
+    "slug": "future-plan",
+    "title": "Future Plans",
+    "subtitle": "What we are building next",
+    "order": 9,
+    "seo": {
+      "title": "Future Plans",
+      "description": "Upcoming plans of Jatiya Shakti Sangha — library, health camps and a community hall."
+    },
+    "body": "Our club is already associated with numerous social programmes organised by various Government and non-Government agencies. Beyond these, some added permanent facilities are planned in the coming years.\n\n### a) A library for poor students — free of cost\nWith many poor, meritorious students in our area, we are designing a library of at least 5,000 books of various standards, including reference books, to benefit the maximum number of students.\n\n### b) Free health check-up camps with visiting doctors\nWe already run frequent free health check-up camps with reputed doctors of Siliguri. Efforts are on to bring in doctors who visit Siliguri on an occasional basis.\n\n### c) A community hall\nWith the completion of the club house, a portion will be opened as a **community hall** available for a minimum cleanliness charge — helping poorer families organise their domestic functions at low cost."
+  },
+  {
+    "slug": "members",
+    "title": "Members",
+    "subtitle": "Join our community",
+    "order": 3,
+    "seo": {
+      "title": "Members & Membership",
+      "description": "Become a member of Jatiya Shakti Sangha. Download the membership form."
+    },
+    "body": "Our members are the backbone of the club. We welcome new members who wish to contribute to the cultural, sporting and social life of Champasari.\n\nTo apply, please download and fill in the membership form below and submit it at the club house.\n\n_The full members directory is being prepared. Please keep visiting for updates._"
+  },
+  {
+    "slug": "contact",
+    "title": "Contact Us",
+    "subtitle": "We would love to hear from you",
+    "order": 11,
+    "seo": {
+      "title": "Contact Us",
+      "description": "Get in touch with Jatiya Shakti Sangha O Pathagar, Champasari, Siliguri."
+    },
+    "body": "Please take a few minutes to fill in the form below and tell us about your specific interest. It will help us process your enquiry faster. Thank you.\n\n**Jatiya Shakti Sangha O Pathagar**  \nChampasari, Siliguri, Darjeeling  \nEmail: info@SiliguriJSS.org  \nWeb: www.SiliguriJSS.org"
+  },
+  {
+    "slug": "press",
+    "title": "Press & Media",
+    "subtitle": "In the news",
+    "order": 12,
+    "seo": {
+      "title": "Press",
+      "description": "Press and media coverage of Jatiya Shakti Sangha."
+    },
+    "body": "Coverage of our Durga Puja and social work has appeared across regional television and newspapers over the years.\n\n_This section is being updated with press clippings and media coverage. Please keep visiting._"
+  }
+]

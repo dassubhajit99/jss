@@ -1,0 +1,23 @@
+[
+  { "name": "Sri Sona Haldar", "role": "Chief Patron", "isExecutive": false, "order": 1 },
+  { "name": "Sri Dilip Barman", "role": "President", "isExecutive": false, "order": 2 },
+  { "name": "Sri Dilip Ghosh", "role": "Vice President", "isExecutive": false, "order": 3 },
+  { "name": "Sri Avijit Karmakar", "role": "Secretary", "isExecutive": false, "order": 4 },
+  { "name": "Sri Sarojit Ghosh", "role": "Assistant Secretary", "isExecutive": false, "order": 5 },
+  { "name": "Sri Aidu Barik", "role": "Cashier", "isExecutive": false, "order": 6 },
+  { "name": "Sri Mithu Chakrabarty", "role": "Executive Member", "isExecutive": true, "order": 7 },
+  { "name": "Sri Tapan Malakar", "role": "Executive Member", "isExecutive": true, "order": 8 },
+  { "name": "Sri Munna Jaiswal", "role": "Executive Member", "isExecutive": true, "order": 9 },
+  { "name": "Sri Parimal Ghosh", "role": "Executive Member", "isExecutive": true, "order": 10 },
+  { "name": "Sri Mithu Acharjee", "role": "Executive Member", "isExecutive": true, "order": 11 },
+  { "name": "Sri Kamal Sarkar", "role": "Executive Member", "isExecutive": true, "order": 12 },
+  { "name": "Sri Papai Das", "role": "Executive Member", "isExecutive": true, "order": 13 },
+  { "name": "Sri Pintu Saha", "role": "Executive Member", "isExecutive": true, "order": 14 },
+  { "name": "Sri Tapash Sen", "role": "Executive Member", "isExecutive": true, "order": 15 },
+  { "name": "Sri Bapan Haldar", "role": "Executive Member", "isExecutive": true, "order": 16 },
+  { "name": "Sri Sanjay Bose", "role": "Executive Member", "isExecutive": true, "order": 17 },
+  { "name": "Sri Niranjan Das", "role": "Executive Member", "isExecutive": true, "order": 18 },
+  { "name": "Sri Pratap Biswas", "role": "Executive Member", "isExecutive": true, "order": 19 },
+  { "name": "Sri Kumar Pradhan", "role": "Executive Member", "isExecutive": true, "order": 20 },
+  { "name": "Sri Narayan Majumdar", "role": "Executive Member", "isExecutive": true, "order": 21 }
+]

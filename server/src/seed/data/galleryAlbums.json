@@ -1,0 +1,455 @@
+[
+  {
+    "slug": "cricket",
+    "title": "Cricket",
+    "category": "activities",
+    "order": 1,
+    "coverImage": "/gallery/cricket1-big.jpg",
+    "images": [
+      {
+        "full": "/gallery/cricket1-big.jpg",
+        "thumb": "/gallery/cricket1-small.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/cricket2-big.jpg",
+        "thumb": "/gallery/cricket2-small.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/cricket3-big.jpg",
+        "thumb": "/gallery/cricket3-small.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/cricket4-big.jpg",
+        "thumb": "/gallery/cricket4-small.jpg",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "slug": "cultural",
+    "title": "Cultural Programmes",
+    "category": "activities",
+    "order": 2,
+    "coverImage": "/gallery/cultural1-big.jpg",
+    "images": [
+      {
+        "full": "/gallery/cultural1-big.jpg",
+        "thumb": "/gallery/cultural1-small.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/cultural2-big.jpg",
+        "thumb": "/gallery/cultural2-small.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/cultural3-big.jpg",
+        "thumb": "/gallery/cultural3-small.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/cultural4-big.jpg",
+        "thumb": "/gallery/cultural4-small.jpg",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "slug": "social",
+    "title": "Social Activities",
+    "category": "activities",
+    "order": 3,
+    "coverImage": "/gallery/social1-big.jpg",
+    "images": [
+      {
+        "full": "/gallery/social1-big.jpg",
+        "thumb": "/gallery/social1-small.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/social2-big.jpg",
+        "thumb": "/gallery/social2-small.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/social3-big.jpg",
+        "thumb": "/gallery/social3-small.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/social4-big.jpg",
+        "thumb": "/gallery/social4-small.jpg",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "slug": "road-show",
+    "title": "Road Shows",
+    "category": "activities",
+    "order": 4,
+    "coverImage": "/gallery/road-show1-big.jpg",
+    "images": [
+      {
+        "full": "/gallery/road-show1-big.jpg",
+        "thumb": "/gallery/road-show1-small.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/road-show2-big.jpg",
+        "thumb": "/gallery/road-show2-small.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/road-show3-big.jpg",
+        "thumb": "/gallery/road-show3-small.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/road-show4-big.jpg",
+        "thumb": "/gallery/road-show4-small.jpg",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "slug": "health",
+    "title": "Health Camps",
+    "category": "activities",
+    "order": 5,
+    "coverImage": "/gallery/health1-big.jpg",
+    "images": [
+      {
+        "full": "/gallery/health1-big.jpg",
+        "thumb": "/gallery/health1-small.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/health2-big.jpg",
+        "thumb": "/gallery/health2-small.jpg",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "slug": "dp-highlights",
+    "title": "Durga Puja Highlights",
+    "category": "durgapuja",
+    "order": 1,
+    "coverImage": "/gallery/durga-puja1-big.jpg",
+    "images": [
+      {
+        "full": "/gallery/durga-puja1-big.jpg",
+        "thumb": "/gallery/durga-puja1-small.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/durga-puja2-big.jpg",
+        "thumb": "/gallery/durga-puja2-big.jpg",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "slug": "dp-2016",
+    "title": "Durga Puja 2016",
+    "category": "durgapuja",
+    "year": 2016,
+    "order": 2,
+    "coverImage": "/gallery/2016-1b.jpg",
+    "images": [
+      {
+        "full": "/gallery/2016-1b.jpg",
+        "thumb": "/gallery/2016-s1.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-2b.jpg",
+        "thumb": "/gallery/2016-s2.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-3b.jpg",
+        "thumb": "/gallery/2016-s3.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-4b.jpg",
+        "thumb": "/gallery/2016-s4.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-5b.jpg",
+        "thumb": "/gallery/2016-s5.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-6b.jpg",
+        "thumb": "/gallery/2016-s6.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-7b.jpg",
+        "thumb": "/gallery/2016-s7.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-8b.jpg",
+        "thumb": "/gallery/2016-s8.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-9b.jpg",
+        "thumb": "/gallery/2016-s9.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-10b.jpg",
+        "thumb": "/gallery/2016-s10.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-11b.jpg",
+        "thumb": "/gallery/2016-s11.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-12b.jpg",
+        "thumb": "/gallery/2016-s12.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-13b.jpg",
+        "thumb": "/gallery/2016-s13.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-14b.jpg",
+        "thumb": "/gallery/2016-s14.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-15b.jpg",
+        "thumb": "/gallery/2016-s15.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2016-16b.jpg",
+        "thumb": "/gallery/2016-s16.jpg",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "slug": "dp-2015",
+    "title": "Durga Puja 2015",
+    "category": "durgapuja",
+    "year": 2015,
+    "order": 3,
+    "coverImage": "/gallery/2015-b1.jpg",
+    "images": [
+      {
+        "full": "/gallery/2015-b1.jpg",
+        "thumb": "/gallery/2015-s1.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2015-b2.jpg",
+        "thumb": "/gallery/2015-s2.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2015-b3.jpg",
+        "thumb": "/gallery/2015-s3.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2015-b4.jpg",
+        "thumb": "/gallery/2015-s4.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2015-b5.jpg",
+        "thumb": "/gallery/2015-s5.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2015-b6.jpg",
+        "thumb": "/gallery/2015-s6.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2015-b7.jpg",
+        "thumb": "/gallery/2015-s7.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2015-b8.jpg",
+        "thumb": "/gallery/2015-s8.jpg",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "slug": "dp-2013",
+    "title": "Durga Puja 2013",
+    "category": "durgapuja",
+    "year": 2013,
+    "order": 4,
+    "coverImage": "/gallery/2013-1b.jpg",
+    "images": [
+      {
+        "full": "/gallery/2013-1b.jpg",
+        "thumb": "/gallery/2013-1s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2013-2b.jpg",
+        "thumb": "/gallery/2013-2s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2013-3b.jpg",
+        "thumb": "/gallery/2013-3s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2013-4b.jpg",
+        "thumb": "/gallery/2013-4s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2013-5b.jpg",
+        "thumb": "/gallery/2013-5s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/2013-6b.jpg",
+        "thumb": "/gallery/2013-6s.jpg",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "slug": "dp-2009",
+    "title": "Durga Puja 2009",
+    "category": "durgapuja",
+    "year": 2009,
+    "order": 5,
+    "coverImage": "/gallery/puja09b.jpg",
+    "images": [
+      {
+        "full": "/gallery/puja09b.jpg",
+        "thumb": "/gallery/puja09s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/puja09b2.jpg",
+        "thumb": "/gallery/puja09s2.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/puja09b3.jpg",
+        "thumb": "/gallery/puja09s3.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/puja09b4.jpg",
+        "thumb": "/gallery/puja09s4.jpg",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "slug": "dp-earlier",
+    "title": "Durga Puja — Earlier Years",
+    "category": "durgapuja",
+    "order": 6,
+    "coverImage": "/gallery/d101.jpg",
+    "images": [
+      {
+        "full": "/gallery/d101.jpg",
+        "thumb": "/gallery/d101s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/dp8-b.jpg",
+        "thumb": "/gallery/dp8-s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/d102.jpg",
+        "thumb": "/gallery/d102s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/dp8-b2.jpg",
+        "thumb": "/gallery/dp8-s2.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/d103.jpg",
+        "thumb": "/gallery/d103s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/dp8-b3.jpg",
+        "thumb": "/gallery/dp8-s3.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/d104.jpg",
+        "thumb": "/gallery/d104s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/dp8-b4.jpg",
+        "thumb": "/gallery/dp8-s4.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/d105.jpg",
+        "thumb": "/gallery/d105s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/dp8-b5.jpg",
+        "thumb": "/gallery/dp8-s5.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/d106.jpg",
+        "thumb": "/gallery/d106s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/dp8-b6.jpg",
+        "thumb": "/gallery/dp8-s6.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/d107.jpg",
+        "thumb": "/gallery/d107s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/dp8-b7.jpg",
+        "thumb": "/gallery/dp8-s7.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/d108.jpg",
+        "thumb": "/gallery/d108s.jpg",
+        "caption": ""
+      },
+      {
+        "full": "/gallery/dp8-b8.jpg",
+        "thumb": "/gallery/dp8-s8.jpg",
+        "caption": ""
+      }
+    ]
+  }
+]

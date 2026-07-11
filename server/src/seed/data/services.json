@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Dance School",
+    "description": "Weekly classical and cultural dance training for children of the area.",
+    "teachers": ["Debjani Bhattacharjee (Teacher)", "Mousumi Das (Assistant Teacher)"],
+    "phones": ["+91 9434496046", "+91 8597027787"],
+    "email": "",
+    "order": 1
+  },
+  {
+    "name": "Kaizen Karate-DO Association",
+    "description": "Karate training and self-defence classes conducted in association with the club.",
+    "teachers": ["Debasish Dhali (Teacher)"],
+    "phones": ["+91 9832480087", "+91 8900699807"],
+    "email": "karateslg@gmail.com",
+    "order": 2
+  },
+  {
+    "name": "Jatiya Shakti Sangha Cricket Academy",
+    "description": "Cricket coaching in association with Champasari Cricket Academy. Executive committee: Pranab Das, Tapan Bhowal, Mahash Tiwari.",
+    "teachers": ["Pranab Das", "Tapan Bhowal", "Mahash Tiwari"],
+    "phones": ["+91 8101787288"],
+    "email": "",
+    "order": 3
+  },
+  {
+    "name": "Ambulance Day & Night Service",
+    "description": "Ambulance service available day and night, within Siliguri.",
+    "teachers": [],
+    "phones": ["+91 7797638863"],
+    "email": "",
+    "order": 4
+  }
+]
