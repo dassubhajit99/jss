@@ -1,8 +1,11 @@
 import { useCallback, useEffect, useState } from "react";
 import { adminApi, adminSend } from "../lib/adminApi.js";
+import { useListControls } from "../hooks/useListControls.js";
 import { useToast } from "../components/Toast.jsx";
 import { DataTable } from "../components/DataTable.jsx";
 import { ConfirmDialog } from "../components/ConfirmDialog.jsx";
+import { SearchInput } from "../components/SearchInput.jsx";
+import { Pagination } from "../components/Pagination.jsx";
 import { Badge, Spinner, ErrorState } from "../../components/ui/index.jsx";
 
 const TABS = [
@@ -14,29 +17,30 @@ const TABS = [
 export default function EnquiriesList() {
   const toast = useToast();
   const [filter, setFilter] = useState("");
-  const [page, setPage] = useState(1);
   const [rows, setRows] = useState(null);
-  const [meta, setMeta] = useState({ total: 0, page: 1, pages: 1 });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [expanded, setExpanded] = useState(null);
   const [toDelete, setToDelete] = useState(null);
 
+  // Fetch the full (server-max) page for the current handled/unhandled tab, then
+  // do search + pagination client-side via useListControls, same as every other
+  // admin list. The server still owns the "handled" tab filter.
   const load = useCallback(() => {
     setLoading(true);
     setError(null);
-    const params = new URLSearchParams({ page: String(page), limit: "20" });
+    const params = new URLSearchParams({ page: "1", limit: "100" });
     if (filter) params.set("handled", filter);
     adminApi(`/admin/enquiries?${params.toString()}`)
-      .then((body) => {
-        setRows(body.data);
-        setMeta(body.meta || { total: body.data.length, page: 1, pages: 1 });
-      })
+      .then((body) => setRows(body.data))
       .catch((err) => setError(err))
       .finally(() => setLoading(false));
-  }, [filter, page]);
+  }, [filter]);
 
   useEffect(() => load(), [load]);
+
+  const { query, setQuery, pageRows, page, setPage, totalPages, total, filteredTotal, isFiltering } =
+    useListControls(rows || [], { searchKeys: ["name", "email", "subject", "message"], pageSize: 20 });
 
   async function toggleHandled(row) {
     try {
@@ -62,23 +66,24 @@ export default function EnquiriesList() {
 
   return (
     <div>
-      <h1 className="text-2xl font-semibold text-ink">Enquiries</h1>
-
-      <div className="mt-4 flex gap-2">
-        {TABS.map((tab) => (
-          <button
-            key={tab.key}
-            onClick={() => {
-              setFilter(tab.key);
-              setPage(1);
-            }}
-            className={`rounded-full px-4 py-1.5 text-sm font-semibold ${
-              filter === tab.key ? "bg-maroon text-white" : "bg-white text-ink-700 hover:bg-cream-200"
-            }`}
-          >
-            {tab.label}
-          </button>
-        ))}
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <h1 className="text-2xl font-semibold text-ink">Enquiries</h1>
+        <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row sm:items-center">
+          <div className="flex flex-wrap gap-2">
+            {TABS.map((tab) => (
+              <button
+                key={tab.key}
+                onClick={() => setFilter(tab.key)}
+                className={`shrink-0 whitespace-nowrap rounded-full px-4 py-1.5 text-sm font-semibold ${
+                  filter === tab.key ? "bg-maroon text-white" : "bg-white text-ink-700 hover:bg-cream-200"
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+          <SearchInput value={query} onChange={setQuery} placeholder="Search enquiries…" />
+        </div>
       </div>
 
       <div className="mt-6">
@@ -89,9 +94,9 @@ export default function EnquiriesList() {
         ) : (
           <DataTable
             rowKey="_id"
-            rows={rows}
+            rows={pageRows}
             onRowClick={(row) => setExpanded(row)}
-            empty="No enquiries yet."
+            empty="No enquiries match your search."
             columns={[
               {
                 key: "createdAt",
@@ -139,27 +144,13 @@ export default function EnquiriesList() {
         )}
       </div>
 
-      {!loading && !error && meta.pages > 1 && (
-        <div className="mt-4 flex items-center justify-between text-sm text-ink-700">
+      {!loading && !error && (
+        <div className="mt-3 flex items-center justify-between text-xs text-ink-700/70">
           <span>
-            Page {meta.page} of {meta.pages} ({meta.total} total)
+            Showing {pageRows.length} of {filteredTotal}
+            {isFiltering ? ` (filtered from ${total})` : ""}
           </span>
-          <div className="flex gap-2">
-            <button
-              onClick={() => setPage((p) => Math.max(1, p - 1))}
-              disabled={meta.page <= 1}
-              className="rounded-lg border border-cream-200 bg-white px-3 py-1.5 font-medium disabled:opacity-40"
-            >
-              Prev
-            </button>
-            <button
-              onClick={() => setPage((p) => Math.min(meta.pages, p + 1))}
-              disabled={meta.page >= meta.pages}
-              className="rounded-lg border border-cream-200 bg-white px-3 py-1.5 font-medium disabled:opacity-40"
-            >
-              Next
-            </button>
-          </div>
+          <Pagination page={page} totalPages={totalPages} onChange={setPage} />
         </div>
       )}
 
