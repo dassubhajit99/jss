@@ -1,5 +1,5 @@
 [
-  { "name": "Sri Sona Haldar", "role": "Chief Patron", "isExecutive": false, "order": 1 },
+  { "name": "Sri Sona Haldar", "role": "Chief Advisor", "isExecutive": false, "order": 1 },
   { "name": "Sri Dilip Barman", "role": "President", "isExecutive": false, "order": 2 },
   { "name": "Sri Dilip Ghosh", "role": "Vice President", "isExecutive": false, "order": 3 },
   { "name": "Sri Avijit Karmakar", "role": "Secretary", "isExecutive": false, "order": 4 },
