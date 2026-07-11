@@ -16,7 +16,7 @@ const EMPTY = {
   year: "",
   coverImage: "",
   images: [],
-  order: 0,
+  order: "",
   status: "published",
 };
 
@@ -52,7 +52,12 @@ export default function AlbumForm() {
     setSaving(true);
     setSaveError("");
     try {
-      const payload = { ...form, year: form.year === "" ? null : Number(form.year) };
+      const payload = {
+        ...form,
+        year: form.year === "" ? null : Number(form.year),
+      };
+      if (form.order === "") delete payload.order;
+      else payload.order = Math.max(0, Number(form.order) || 0);
       if (isNew) {
         await adminSend("POST", "/admin/gallery", payload);
         toast.success("Album created");
@@ -96,8 +101,13 @@ export default function AlbumForm() {
         <ImageUpload label="Cover image" value={form.coverImage} onChange={(v) => set("coverImage", v)} />
         <ImagesField label="Images" mode="objects" value={form.images} onChange={(v) => set("images", v)} />
         <div className="grid grid-cols-2 gap-4">
-          <Field label="Order">
-            <NumberInput value={form.order} onChange={(e) => set("order", Number(e.target.value))} />
+          <Field label="Order" hint="Leave blank to add at the end.">
+            <NumberInput
+              min="0"
+              value={form.order}
+              onChange={(e) => set("order", e.target.value === "" ? "" : Math.max(0, Number(e.target.value) || 0))}
+              placeholder="Auto (added last)"
+            />
           </Field>
           <Field label="Status">
             <StatusSelect value={form.status} onChange={(v) => set("status", v)} />

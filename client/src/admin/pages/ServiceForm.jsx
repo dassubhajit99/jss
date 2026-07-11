@@ -14,7 +14,7 @@ const EMPTY = {
   teachers: [],
   phones: [],
   email: "",
-  order: 0,
+  order: "",
   status: "published",
 };
 
@@ -50,11 +50,14 @@ export default function ServiceForm() {
     setSaving(true);
     setSaveError("");
     try {
+      const payload = { ...form };
+      if (form.order === "") delete payload.order;
+      else payload.order = Math.max(0, Number(form.order) || 0);
       if (isNew) {
-        await adminSend("POST", "/admin/services", form);
+        await adminSend("POST", "/admin/services", payload);
         toast.success("Service created");
       } else {
-        await adminSend("PUT", `/admin/services/${id}`, form);
+        await adminSend("PUT", `/admin/services/${id}`, payload);
         toast.success("Service saved");
       }
       navigate("/admin/services");
@@ -85,8 +88,13 @@ export default function ServiceForm() {
           <Input type="email" value={form.email} onChange={(e) => set("email", e.target.value)} />
         </Field>
         <div className="grid grid-cols-2 gap-4">
-          <Field label="Order">
-            <NumberInput value={form.order} onChange={(e) => set("order", Number(e.target.value))} />
+          <Field label="Order" hint="Leave blank to add at the end.">
+            <NumberInput
+              min="0"
+              value={form.order}
+              onChange={(e) => set("order", e.target.value === "" ? "" : Math.max(0, Number(e.target.value) || 0))}
+              placeholder="Auto (added last)"
+            />
           </Field>
           <Field label="Status">
             <StatusSelect value={form.status} onChange={(v) => set("status", v)} />

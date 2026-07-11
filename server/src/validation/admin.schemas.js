@@ -30,7 +30,7 @@ export const pageCreate = z.object({
       ogImage: url,
     })
     .default({}),
-  order: z.number().int().default(0),
+  order: z.number().int().min(0).optional(),
   status,
 });
 export const pageUpdate = pageCreate.partial();
@@ -40,7 +40,7 @@ export const committeeCreate = z.object({
   name: z.string().trim().min(1).max(200),
   role: z.string().trim().min(1).max(120),
   isExecutive: z.boolean().default(false),
-  order: z.number().int().default(0),
+  order: z.number().int().min(0).optional(),
   photo: url,
   status,
 });
@@ -74,7 +74,7 @@ export const galleryCreate = z.object({
       })
     )
     .default([]),
-  order: z.number().int().default(0),
+  order: z.number().int().min(0).optional(),
   status,
 });
 export const galleryUpdate = galleryCreate.partial();
@@ -86,7 +86,7 @@ export const serviceCreate = z.object({
   teachers: z.array(z.string().trim().min(1).max(200)).default([]),
   phones: z.array(z.string().trim().min(1).max(40)).default([]),
   email: z.string().trim().email().max(200).or(z.literal("")).default(""),
-  order: z.number().int().default(0),
+  order: z.number().int().min(0).optional(),
   status,
 });
 export const serviceUpdate = serviceCreate.partial();

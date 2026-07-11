@@ -49,7 +49,7 @@ export async function uploadImage(file) {
     throw new Error("Image must be smaller than 10 MB");
   }
 
-  const sig = await adminGet("/admin/uploads/sign");
+  const sig = await adminSend("POST", "/admin/uploads/sign");
 
   const form = new FormData();
   form.append("file", file);

@@ -19,6 +19,10 @@ export function makeCrud(Model, { sort = { order: 1, createdAt: -1 }, beforeSave
 
   const create = asyncHandler(async (req, res) => {
     const data = beforeSave ? await beforeSave(req.body) : req.body;
+    if (Model.schema.path("order") && (data.order === undefined || data.order === null)) {
+      const last = await Model.findOne().sort({ order: -1 }).select("order").lean();
+      data.order = (last?.order ?? -1) + 1;
+    }
     const doc = await Model.create(data);
     res.status(201).json({ data: doc });
   });

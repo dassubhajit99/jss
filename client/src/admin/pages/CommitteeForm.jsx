@@ -18,8 +18,9 @@ const ROLES = [
   "Executive Member",
 ];
 const OTHER = "Other…";
+const OFFICE_BEARER_ROLES = ["Chief Advisor", "President", "Vice President", "Secretary", "Assistant Secretary", "Cashier"];
 
-const EMPTY = { name: "", role: "", isExecutive: false, order: 0, photo: "", status: "published" };
+const EMPTY = { name: "", role: "", isExecutive: false, order: "", photo: "", status: "published" };
 
 export default function CommitteeForm() {
   const { id } = useParams();
@@ -70,7 +71,12 @@ export default function CommitteeForm() {
     setSaving(true);
     setSaveError("");
     try {
-      const payload = { ...form, isExecutive: form.role === "Executive Member" };
+      const payload = {
+        ...form,
+        isExecutive: !OFFICE_BEARER_ROLES.includes(form.role),
+      };
+      if (form.order === "") delete payload.order;
+      else payload.order = Math.max(0, Number(form.order) || 0);
       if (isNew) {
         await adminSend("POST", "/admin/committee", payload);
         toast.success("Committee member created");
@@ -99,7 +105,7 @@ export default function CommitteeForm() {
         </Field>
         <Field
           label="Role"
-          hint="Choose “Executive Member” for general committee members (shown in the Committee Members section); other roles appear under Office Bearers."
+          hint="Standard titles (President, Secretary, etc.) appear under Office Bearers; “Executive Member” or any custom role appears under Committee Members."
         >
           <Select value={isCustomRole ? OTHER : form.role} onChange={(e) => setRole(e.target.value)} required>
             <option value="" disabled>
@@ -124,8 +130,13 @@ export default function CommitteeForm() {
         </Field>
         <ImageUpload label="Photo" value={form.photo} onChange={(v) => set("photo", v)} />
         <div className="grid grid-cols-2 gap-4">
-          <Field label="Order">
-            <NumberInput value={form.order} onChange={(e) => set("order", Number(e.target.value))} />
+          <Field label="Order" hint="Leave blank to add at the end.">
+            <NumberInput
+              min="0"
+              value={form.order}
+              onChange={(e) => set("order", e.target.value === "" ? "" : Math.max(0, Number(e.target.value) || 0))}
+              placeholder="Auto (added last)"
+            />
           </Field>
           <Field label="Status">
             <StatusSelect value={form.status} onChange={(v) => set("status", v)} />

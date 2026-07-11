@@ -11,7 +11,7 @@ import { SaveBar } from "../components/SaveBar.jsx";
 import { Spinner, ErrorState } from "../../components/ui/index.jsx";
 
 const EMPTY = {
-  year: new Date().getFullYear(),
+  year: "",
   theme: "",
   description: "",
   awards: [],
@@ -52,11 +52,12 @@ export default function DurgaPujaForm() {
     setSaving(true);
     setSaveError("");
     try {
+      const payload = { ...form, year: form.year === "" ? undefined : Number(form.year) };
       if (isNew) {
-        await adminSend("POST", "/admin/durga-puja", form);
+        await adminSend("POST", "/admin/durga-puja", payload);
         toast.success("Entry created");
       } else {
-        await adminSend("PUT", `/admin/durga-puja/${id}`, form);
+        await adminSend("PUT", `/admin/durga-puja/${id}`, payload);
         toast.success("Entry saved");
       }
       navigate("/admin/durga-puja");
@@ -76,7 +77,12 @@ export default function DurgaPujaForm() {
 
       <div className="mt-6 space-y-5 rounded-2xl border border-cream-200 bg-white p-6 shadow-soft">
         <Field label="Year">
-          <NumberInput value={form.year} onChange={(e) => set("year", Number(e.target.value))} required />
+          <NumberInput
+            value={form.year}
+            onChange={(e) => set("year", e.target.value === "" ? "" : Number(e.target.value))}
+            placeholder="e.g. 2016"
+            required
+          />
         </Field>
         <Field label="Theme">
           <Input value={form.theme} onChange={(e) => set("theme", e.target.value)} />
